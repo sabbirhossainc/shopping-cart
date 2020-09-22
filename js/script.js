@@ -31,8 +31,8 @@ for (let i = 0; i < carts.length; i++) {
 cartList.addEventListener('click', removeCart);
 clearBtn.addEventListener('click', clearCart);
 
-//Define fucntion Add Carts
 
+//Define fucntion Add Carts
 function addToCart(product) {
 
     //create li eliment
@@ -43,7 +43,6 @@ function addToCart(product) {
     link.innerHTML = 'Remove';
     li.appendChild(link);
     cartList.appendChild(li);
-
 }
 
 // Remove Cart
